@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<body lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <div class="header__top-inner">
+                            <div class="header__logo">
+                                <a href="#">
+                                    <img src="images/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__btn">
+                                <a href="#" class="header__btn-become">Become a Seller</a>
+                                <a href="#" class="header__btn-cart">
+                                    <span class="lnr lnr-cart"></span>
+                                </a>
+                                <a href="#" class="header__btn-login">Login</a>
+                                <a href="#" class="header__btn-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="container">
+                        <div class="header__bottom-inner">
+                            <nav class="header__bottom-menu">
+                                <div class="header__bottom-btn">
+                                    <span class="lnr lnr-menu"></span>
+                                </div>
+                                <ul class="menu__list">
+                                    <li class="menu__list-item"><a href="#">home</a></li>
+                                    <li class="menu__list-item"><a href="#">all products</a></li>
+                                    <li class="menu__list-item"><a href="#">wordpress</a></li>
+                                    <li class="menu__list-item"><a href="#">festures</a></li>
+                                    <li class="menu__list-item"><a href="#">pages</a></li>
+                                </ul>
+                            </nav>
+                            <form class="header__search" action="#">
+                                <input type="text" placeholder="Search product here..." required>
+                                <button type="submit">
+                                    <span class="lnr lnr-magnifier"></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="search">
+                <div class="container">
+                    <div class="search__title">
+                        4,572 wordpress themes, made with love
+                    </div>
+                    <form action="" class="search__form">
+                        <input type="text" placeholder="Search your products" required>
+                        <button type="submit">Search</button>
+                    </form>
+                    <div class="breadcrumbs">
+                        <div class="breadcrumbs__inner">
+                            <ul class="breadcrumbs__list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Category Page Grid</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="page-products">
+                <div class="page-products__filter">
+                    <div class="container">
+                        <div class="page-products__inner">
+                            <button class="page-products__trend" href="#">New Products</button>
+                            <button class="page-products__trend" href="#">Popular Products</button>
+                            <div class="page-products__select-box">
+                                <div class="page-products__select">
+                                    <span class="lnr lnr-chevron-down"></span>
+                                    <select name="" id="">
+                                        <option value="">Price : Low to High</option>
+                                        <option value="">Price : High to Low</option>
+                                    </select>
+                                </div>
+                                <div class="page-products__select">
+                                    <span class="lnr lnr-chevron-down"></span>
+                                    <select name="" id="">
+                                        <option value="">12 Items Per Page</option>
+                                        <option value="">24 Items Per Page</option>
+                                        <option value="">48 Items Per Page</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="page-products__btn-box">
+                                <button class="page-products__btn page-products__btn--active icon-th-large"></button>
+                                <button class="page-products__btn icon-th-list"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-products__main">
+                    <div class="container">
+                        <div class="main__wrap">
+                            <aside class="page-products__aside">
+                                <div class="page-products__item">
+                                    <div class="page-products__item-title title-categories">
+                                        Categories<span class="lnr lnr-chevron-down"></span>
+                                    </div>
+                                    <ul class="page-products__item-list list-categories">
+                                        <li>
+                                            <span class="lnr lnr-chevron-right"></span>
+                                            <button type="button" data-filter=".category-wp">Wordpress</button>
+                                            <span class="category-number">35</span>
+                                        </li>
+                                        <li>
+                                            <span class="lnr lnr-chevron-right"></span>
+                                            <button type="button" data-filter=".category-lp">Landing Page</button>
+                                            <span class="category-number">45</span>
+                                        </li>
+                                        <li>
+                                            <span class="lnr lnr-chevron-right"></span>
+                                            <button type="button" data-filter=".category-psd">Psd Template</button>
+                                            <span class="category-number">13</span>
+                                        </li>
+                                        <li>
+                                            <span class="lnr lnr-chevron-right"></span>
+                                            <button type="button" data-filter=".category-plugins">Plugins</button>
+                                            <span class="category-number">08</span>
+                                        </li>
+                                        <li>
+                                            <span class="lnr lnr-chevron-right"></span>
+                                            <button>HTML Template</button>
+                                            <span class="category-number">34</span>
+                                        </li>
+                                        <li>
+                                            <span class="lnr lnr-chevron-right"></span>
+                                            <button>Components</button>
+                                            <span class="category-number">78</span>
+                                        </li>
+                                        <li>
+                                            <span class="lnr lnr-chevron-right"></span>
+                                            <button>Joomla Template</button>
+                                            <span class="category-number">26</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="page-products__item">
+                                    <div class="page-products__item-title title-filter">
+                                        Filter Products<span class="lnr lnr-chevron-down"></span>
+                                    </div>
+                                    <ul class="page-products__item-list list-filter">
+                                        <li><button>Trending Products</button></li>
+                                        <li><button>Popular Products</button></li>
+                                        <li><button>New Products</button></li>
+                                        <li><button>Best Seller</button></li>
+                                        <li><button>Best Rating</button></li>
+                                        <li><button>Low Price</button></li>
+                                        <li><button>High Price</button></li>
+                                    </ul>
+                                </div>
+                                <div class="page-products__item">
+                                    <div class="page-products__item-title title-range">
+                                        Pricing Range<span class="lnr lnr-chevron-down"></span>
+                                    </div>
+                                    <form class="page-products__item-range range" action="">
+                                        <input type="text" class="js-range-slider" name="my_range" value="" />
+                                        <button type="submit">Search Update</button>
+                                    </form>
+                                </div>
+                            </aside>
+                            <div class="page-products__content">
+                                <div class="content-item mix category-wp" data-order="1">
+                                    <a class="content-item__img" href="#" style="background-image: url(images/content/content-item.jpg);"></a>
+                                    <div class="content-item__main">
+                                        <div class="content-item__main-title">Finance and Consulting
+                                        Business Theme</div>
+                                        <div class="content-item__main-author">
+                                            <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                            <a class="main-author__name" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="main__rate">
+                                            <div class="main__rate-stars"></div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>  
+                                    </div>
+                                    <div class="content-item__box">
+                                        <div class="box__price">$18</div>
+                                        <div class="box__technology">
+                                            <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                            <a class="box__technology-name" href="#">Wordpress</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-list">
+                                        <div class="content-list__infoproduct">
+                                            <div class="content-item__main-title content-list__infoproduct-title">Finance and Consulting
+                                                Business Theme
+                                            </div>
+                                            <p class="content-list__infoproduct-text">Nunc placerat mi id nisi inter dum mollis. Praesent phare...</p>
+                                            <div class="box__technology">
+                                                <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                                <a class="box__technology-name" href="#">Wordpress</a>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infoauthor">
+                                            <div class="content-item__main-author content-list__infoauthor-title">
+                                                <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                                <a class="main-author__name" href="#">Theme-Valley</a>
+                                            </div>
+                                            <div class="content-list__likes">
+                                                <span class="lnr lnr-heart"></span>
+                                                90 loves
+                                            </div>
+                                            <div class="content-list__coments">
+                                                <span class="lnr lnr-bubble"></span>
+                                                90 Comments
+                                            </div>
+                                            <div class="content-list__rate">
+                                                <div class="main__rate-stars"></div>
+                                                <span>(34)</span>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infosale">
+                                            <div class="box__price">$10-$50</div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="content-item mix category-lp" data-order="2">
+                                    <a class="content-item__img" href="#" style="background-image: url(images/content/content-item.jpg);"></a>
+                                    <div class="content-item__main">
+                                        <div class="content-item__main-title">Finance and Consulting
+                                            Business Theme</div>
+                                        <div class="content-item__main-author">
+                                            <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                            <a class="main-author__name" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="main__rate">
+                                            <div class="main__rate-stars"></div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-item__box">
+                                        <div class="box__price">$18</div>
+                                        <div class="box__technology">
+                                            <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                            <a class="box__technology-name" href="#">Landing Page</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-list">
+                                        <div class="content-list__infoproduct">
+                                            <div class="content-item__main-title content-list__infoproduct-title">Finance and Consulting
+                                                Business Theme
+                                            </div>
+                                            <p class="content-list__infoproduct-text">Nunc placerat mi id nisi inter dum mollis. Praesent phare...</p>
+                                            <div class="box__technology">
+                                                <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                                <a class="box__technology-name" href="#">Wordpress</a>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infoauthor">
+                                            <div class="content-item__main-author content-list__infoauthor-title">
+                                                <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                                <a class="main-author__name" href="#">Theme-Valley</a>
+                                            </div>
+                                            <div class="content-list__likes">
+                                                <span class="lnr lnr-heart"></span>
+                                                90 loves
+                                            </div>
+                                            <div class="content-list__coments">
+                                                <span class="lnr lnr-bubble"></span>
+                                                90 Comments
+                                            </div>
+                                            <div class="content-list__rate">
+                                                <div class="main__rate-stars"></div>
+                                                <span>(34)</span>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infosale">
+                                            <div class="box__price">$10-$50</div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="content-item mix category-psd" data-order="3">
+                                    <a class="content-item__img" href="#" style="background-image: url(images/content/content-item.jpg);"></a>
+                                    <div class="content-item__main">
+                                        <div class="content-item__main-title">Finance and Consulting
+                                            Business Theme</div>
+                                        <div class="content-item__main-author">
+                                            <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                            <a class="main-author__name" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="main__rate">
+                                            <div class="main__rate-stars"></div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-item__box">
+                                        <div class="box__price">$18</div>
+                                        <div class="box__technology">
+                                            <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                            <a class="box__technology-name" href="#">PSD</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-list">
+                                        <div class="content-list__infoproduct">
+                                            <div class="content-item__main-title content-list__infoproduct-title">Finance and Consulting
+                                                Business Theme
+                                            </div>
+                                            <p class="content-list__infoproduct-text">Nunc placerat mi id nisi inter dum mollis. Praesent phare...</p>
+                                            <div class="box__technology">
+                                                <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                                <a class="box__technology-name" href="#">Wordpress</a>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infoauthor">
+                                            <div class="content-item__main-author content-list__infoauthor-title">
+                                                <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                                <a class="main-author__name" href="#">Theme-Valley</a>
+                                            </div>
+                                            <div class="content-list__likes">
+                                                <span class="lnr lnr-heart"></span>
+                                                90 loves
+                                            </div>
+                                            <div class="content-list__coments">
+                                                <span class="lnr lnr-bubble"></span>
+                                                90 Comments
+                                            </div>
+                                            <div class="content-list__rate">
+                                                <div class="main__rate-stars"></div>
+                                                <span>(34)</span>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infosale">
+                                            <div class="box__price">$10-$50</div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-item mix category-plugins" data-order="4">
+                                    <a class="content-item__img" href="#" style="background-image: url(images/content/content-item.jpg);"></a>
+                                    <div class="content-item__main">
+                                        <div class="content-item__main-title">Finance and Consulting
+                                            Business Theme</div>
+                                        <div class="content-item__main-author">
+                                            <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                            <a class="main-author__name" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="main__rate">
+                                            <div class="main__rate-stars"></div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-item__box">
+                                        <div class="box__price">$18</div>
+                                        <div class="box__technology">
+                                            <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                            <a class="box__technology-name" href="#">Wordpress</a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="content-list">
+                                        <div class="content-list__infoproduct">
+                                            <div class="content-item__main-title content-list__infoproduct-title">Finance and Consulting
+                                                Business Theme
+                                            </div>
+                                            <p class="content-list__infoproduct-text">Nunc placerat mi id nisi inter dum mollis. Praesent phare...</p>
+                                            <div class="box__technology">
+                                                <a class="box__technology-img" href="#"
+                                                    style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                                <a class="box__technology-name" href="#">Wordpress</a>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infoauthor">
+                                            <div class="content-item__main-author content-list__infoauthor-title">
+                                                <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                                <a class="main-author__name" href="#">Theme-Valley</a>
+                                            </div>
+                                            <div class="content-list__likes">
+                                                <span class="lnr lnr-heart"></span>
+                                                90 loves
+                                            </div>
+                                            <div class="content-list__coments">
+                                                <span class="lnr lnr-bubble"></span>
+                                                90 Comments
+                                            </div>
+                                            <div class="content-list__rate">
+                                                <div class="main__rate-stars"></div>
+                                                <span>(34)</span>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infosale">
+                                            <div class="box__price">$10-$50</div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-item mix category-plugins" data-order="5">
+                                    <a class="content-item__img" href="#" style="background-image: url(images/content/content-item.jpg);"></a>
+                                    <div class="content-item__main">
+                                        <div class="content-item__main-title">Finance and Consulting
+                                            Business Theme</div>
+                                        <div class="content-item__main-author">
+                                            <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                            <a class="main-author__name" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="main__rate">
+                                            <div class="main__rate-stars"></div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-item__box">
+                                        <div class="box__price">$18</div>
+                                        <div class="box__technology">
+                                            <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                            <a class="box__technology-name" href="#">Plugin</a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="content-list">
+                                        <div class="content-list__infoproduct">
+                                            <div class="content-item__main-title content-list__infoproduct-title">Finance and Consulting
+                                                Business Theme
+                                            </div>
+                                            <p class="content-list__infoproduct-text">Nunc placerat mi id nisi inter dum mollis. Praesent phare...</p>
+                                            <div class="box__technology">
+                                                <a class="box__technology-img" href="#"
+                                                    style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                                <a class="box__technology-name" href="#">Plugin</a>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infoauthor">
+                                            <div class="content-item__main-author content-list__infoauthor-title">
+                                                <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                                <a class="main-author__name" href="#">Theme-Valley</a>
+                                            </div>
+                                            <div class="content-list__likes">
+                                                <span class="lnr lnr-heart"></span>
+                                                90 loves
+                                            </div>
+                                            <div class="content-list__coments">
+                                                <span class="lnr lnr-bubble"></span>
+                                                90 Comments
+                                            </div>
+                                            <div class="content-list__rate">
+                                                <div class="main__rate-stars"></div>
+                                                <span>(34)</span>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infosale">
+                                            <div class="box__price">$10-$50</div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-item mix category-plugins" data-order="6">
+                                    <a class="content-item__img" href="#" style="background-image: url(images/content/content-item.jpg);"></a>
+                                    <div class="content-item__main">
+                                        <div class="content-item__main-title">Finance and Consulting
+                                            Business Theme</div>
+                                        <div class="content-item__main-author">
+                                            <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                            <a class="main-author__name" href="#">Theme-Valley</a>
+                                        </div>
+                                        <div class="main__rate">
+                                            <div class="main__rate-stars"></div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-item__box">
+                                        <div class="box__price">$18</div>
+                                        <div class="box__technology">
+                                            <a class="box__technology-img" href="#" style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                            <a class="box__technology-name" href="#">Plugin</a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="content-list">
+                                        <div class="content-list__infoproduct">
+                                            <div class="content-item__main-title content-list__infoproduct-title">Finance and Consulting
+                                                Business Theme
+                                            </div>
+                                            <p class="content-list__infoproduct-text">Nunc placerat mi id nisi inter dum mollis. Praesent phare...</p>
+                                            <div class="box__technology">
+                                                <a class="box__technology-img" href="#"
+                                                    style="background-image: url(images/content/content-ava2.jpg);"></a>
+                                                <a class="box__technology-name" href="#">Wordpress</a>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infoauthor">
+                                            <div class="content-item__main-author content-list__infoauthor-title">
+                                                <a class="main-author__img" href="#" style="background-image: url(images/content/content-ava.jpg);"></a>
+                                                <a class="main-author__name" href="#">Theme-Valley</a>
+                                            </div>
+                                            <div class="content-list__likes">
+                                                <span class="lnr lnr-heart"></span>
+                                                90 loves
+                                            </div>
+                                            <div class="content-list__coments">
+                                                <span class="lnr lnr-bubble"></span>
+                                                90 Comments
+                                            </div>
+                                            <div class="content-list__rate">
+                                                <div class="main__rate-stars"></div>
+                                                <span>(34)</span>
+                                            </div>
+                                        </div>
+                                        <div class="content-list__infosale">
+                                            <div class="box__price">$10-$50</div>
+                                            <div class="main__rate-buyed">
+                                                <span class="lnr lnr-cart"></span>427
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="pagination">
+                            <ul class="pagination__list">
+                                <li><a href="#"><span class="lnr lnr-arrow-left"></span></a></li>
+                                <li><a class="pagination-active" href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">8</a></li>
+                                <li><a href="#"><span class="lnr lnr-arrow-right"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="join">
+                <div class="join__title">Ready to Join Our Marketplace!</div>
+                <div class="join__text">Over 25,000 designers and developers trust the MartPlace.</div>
+                <a href="#" class="join__btn">Join Us Today</a>
+            </section>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer">
+                    <div class="footer__inner">
+                        <div class="footer__contacts">
+                            <div class="footer__contacts-logo">
+                                <img src="images/footer-logo.png" alt="">
+                            </div>
+                            <div class="footer__contacts-text">
+                                Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque the
+                                mattis, leo quam.
+                            </div>
+                            <div class="footer__contacts-box">
+                                <span class="lnr lnr-phone-handset"></span>
+                                Phone: <a href="tel:67898752235">+6789-875-2235</a>
+                            </div>
+                            <div class="footer__contacts-box">
+                                <span class="lnr lnr-envelope"></span>
+                                <a href="mailto:support@aazztech.com">support@aazztech.com</a>
+                            </div>
+                            <div class="footer__contacts-box footer__adress">
+                                <span class="lnr lnr-map-marker"></span>
+                                <div class="footer__adress-text">
+                                    202 New Hampshire Avenue
+                                    Northwest #100, New York-2573
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__menu">
+                            <div class="footer__title">
+                                Our Company
+                            </div>
+                            <ul class="footer__menu-list">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">How It Work</a></li>
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Copyright Notice</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu">
+                            <div class="footer__title">
+                                Help Support
+                            </div>
+                            <ul class="footer__menu-list">
+                                <li><a href="#">Support Forum</a></li>
+                                <li><a href="#">Support Forum</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Refund Policy</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Buyers Faq</a></li>
+                                <li><a href="#">Sellers Faq</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__subscribe">
+                            <div class="footer__title">
+                                Newsletter
+                            </div>
+                            <div class="footer__subscribe-text">
+                                Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!
+                            </div>
+                            <form class="footer__subscribe-form" action="#">
+                                <input type="text" placeholder="Enter email" required>
+                                <button type="submit">Submit</button>
+                            </form>
+                            <div class="footer__subscribe-socials">
+                                <a href="#"><img src="images/icons/fb.png" alt=""></a>
+                                <a href="#"><img src="images/icons/tw.png" alt=""></a>
+                                <a href="#"><img src="images/icons/google.png" alt=""></a>
+                                <a href="#"><img src="images/icons/p.png" alt=""></a>
+                                <a href="#"><img src="images/icons/ln.png" alt=""></a>
+                                <a href="#"><img src="images/icons/ball.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <div class="container">
+                    ©2017 <a href="#">MartPlace</a>. All rights reserved. Created by <a href="#">AazzTech</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+    

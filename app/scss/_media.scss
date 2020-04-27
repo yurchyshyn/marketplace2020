@@ -1,0 +1,221 @@
+@media (max-width:1150px){
+    .main__search input{
+        width: 50%;
+    }
+}
+
+@media (max-width:1050px){
+    .main__search input{
+        width: auto;
+    }
+    .featured__img{
+        width: 50%;
+        min-height: auto;
+        // max-width: 300px;
+    }
+    .featured__info{
+        // width: 50%;
+        // max-width: 300px;
+    }
+}
+
+@media (max-width:950px){
+    .featured__info {
+        background-color: #fff;
+        padding: 30px 30px 24px 40px;
+    }
+    .featured__keywords{
+        padding-bottom: 30px;
+    }
+    .featured__text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:850px) {
+    .header__bottom-btn{
+        display: block;
+    }
+    .main__search{
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    .main__search button{
+        margin-left: 0;
+    }
+    .menu__list{
+        display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 180px;
+        li{
+            display: block;
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid $text;
+            padding: 15px 0;
+            background-color: $white;
+            &:first-child{
+                border-top:1px solid $text;
+            }
+        }
+        a{
+            width: 100%;
+        }
+        li + li{
+            margin-left: 0;
+        }
+    }
+    .main__title{
+        font-size: 40px;
+    }
+    .features__inner{
+        flex-wrap: wrap;
+    }
+    .features__item{
+        max-width: 300px;
+    }
+    .featured__slider-item{
+        flex-wrap: wrap;
+    }
+    .featured__img{
+        min-height: 300px;
+        width: 550px;
+        max-width: 100%;
+    }
+    .featured__info{
+        width: 100%;
+        max-width: 550px;
+    }
+    .featured__title{
+        max-width: 550px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        font-size: 24px;
+        padding: 40px 25px;
+    }
+    .prev, .next{
+        top:-105px;
+    }
+    .prev{
+        right: 190px;
+    }
+    .next{
+        right: 130px;
+    }
+}
+
+@media (max-width:768px){
+    .featured__title{
+        text-align: center;
+    }
+    .prev, .next{
+        top:10px;
+        z-index: 10;
+    }
+    .next{
+        right: 12%;
+    }
+    .prev{
+        right: 19%;
+    }
+}
+
+@media (max-width:610px){
+    .main{
+        padding-top: 70px;
+    }
+    .main__title{
+        line-height: 50px;
+    }
+    .main__btn{
+        padding: 15px 27px;
+        display: block;
+        max-width: 190px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .main__search{
+        margin-top: 0;
+        transform: translateY(25%);
+    }
+    .main__search input,
+    .main__search-select,
+    .main__search select,
+    .main__search button{
+        width: 100%;
+    }
+    .main__search select{
+        border-left: 1px solid #dcdcdc;
+        border-top:none;
+    }
+    .features__inner{
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+    .featured{
+        padding: 70px 0;
+    }
+}
+
+@media (max-width:440px){
+    .featured__title{
+        padding:30px 20px;
+        line-height: 26px;
+    }
+    .next{
+        right: 4%;
+    }
+    .featured__info-title{
+        font-size: 20px;
+    }
+    .featured__info{
+        padding: 20px 12px;
+    }
+    .featured__keywords {
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .featured__keywords span{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .featured__rating{
+        flex-wrap: wrap;
+        justify-content: start;
+        font-size: 13px;
+    }
+    .featured__rating-stars{
+        margin-left: 0;
+    }
+    .featured__rating-price,
+    .featured__rating-likes{
+        margin-right: 10px;
+    }
+    .featured__rating-stars{
+        // margin-top: 10px;
+    }
+}
+
+@media (max-width:400px){
+    .header__search input{
+        padding-right: 65px;
+        padding-left: 10px;
+    }
+    .header__search button{
+        width: 65px;
+    }
+    .main__search{
+        padding: 25px;
+    }
+}
+
+@media (min-width:850px){
+    .menu__list{
+        display: block !important;
+    }
+}
