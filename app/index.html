@@ -24,8 +24,8 @@
                         <a href="#" class="header__btn-cart">
                             <span class="lnr lnr-cart"></span>
                         </a>  
-                        <a href="#" class="header__btn-login">Login</a>  
-                        <a href="#" class="header__btn-register">Register</a>
+                        <a class="header__btn-login" data-fancybox data-src="#login" href="javascript:;">Login</a>  
+                        <a href="#" class="header__btn-register" data-fancybox data-src="#register" href="javascript:;">Register</a>
                     </div>  
                 </div>
             </div>
@@ -926,6 +926,91 @@
         </div>
     </footer>
 
+    <div class="overlay" id="login">
+        <div class="popup">
+            <div class="popup__inner">
+                <div class="popup__title">Welcome Back</div>
+                <div class="popup__text">You can sign in with your username</div>
+            </div>
+            <form class="popup__form" action="">
+                <div class="popup__form-item">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter your username..." required>
+                </div>
+                <div class="popup__form-item">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password..." required>
+                </div>
+                <div class="popup__form-checkbox">
+                    <input id="remember" type="checkbox">
+                    <label for="remember">Remember me</label>
+                </div>
+                <button type="submit">Login Now</button>
+            </form>
+            <div class="popup__links">
+                <div class="popup__links-forget">
+                    Lost your <a data-fancybox data-src="#recover" href="javascript:;">username</a> or <a data-fancybox data-src="#recover" href="javascript:;">password</a>?
+                </div>
+                <div class="popup__links-acc">
+                    Don't have an <a href="#">account</a>?
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="recover">
+        <div class="popup">
+            <div class="popup__inner">
+                <div class="recover__text">Please enter the email address for your account. A verification
+                code will be sent to you. Once you have received the
+                verification code, you will be able to choose a new password
+                for your account.</div>
+            </div>
+            <form class="popup__form" action="">
+                <div class="popup__form-item">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email address..." required>
+                </div>
+                <button type="submit">Submit Now</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="overlay" id="register">
+        <div class="popup">
+            <div class="popup__inner">
+                <div class="popup__title">Create Your Account</div>
+                <div class="popup__text">Please fill the following fields with appropriate information
+                to register a new MartPlace account.</div>
+            </div>
+            <form class="popup__form" action="">
+                <div class="popup__form-item">
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Enter your name..." required>
+                </div>
+                <div class="popup__form-item">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="popup__form-item">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter your username..." required>
+                </div>
+                <div class="popup__form-item">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password..." required>
+                </div>
+                <div class="popup__form-item">
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Enter your password..." required>
+                </div>
+                <button type="submit">Register Now</button>
+            </form>
+            <div class="popup__links">
+                Already have an account? <a href="#">Login</a>
+            </div>
+        </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
