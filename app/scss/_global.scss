@@ -107,6 +107,7 @@ footer {
     box-shadow: 0 2px 4px rgba(108, 111, 115, 0.1);
     border-radius: 4px;
     background-color: #ffffff;
+    padding-bottom: 60px;
 }
 
 .popup__inner{
@@ -132,7 +133,6 @@ footer {
 
 .popup__form{
     margin-top: 28px;
-    margin-bottom: 39px;
     padding: 0 50px;
     &-item{
         margin-bottom: 28px;
@@ -170,6 +170,8 @@ footer {
         color: #fff;
         padding: 0px 10px;
         cursor: pointer;
+        display: block;
+        margin-top: 32px;
     }
 }
 
@@ -209,13 +211,9 @@ footer {
     }
 }
 
-.popup__form-checkbox{
-    margin-bottom: 30px;
-}
-
 .popup__links{
+    margin-top: 40px;
     padding: 0 50px;
-    padding-bottom: 60px;
     display: flex;
     justify-content: space-between;
     color: #898f96;
@@ -226,10 +224,6 @@ footer {
 
 #register .popup__links{
     display: block;
-}
-
-#recover .popup__form{
-    margin-bottom: 60px;
 }
 
 .recover__text{
