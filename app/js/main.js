@@ -26,6 +26,15 @@ $(function () {
         prevArrow: "<img src='../images/icons/arrow-left-feedback.svg' class='feedback-prev' alt='1'>",
         nextArrow: "<img src='../images/icons/arrow-right-feedback.svg' class='feedback-next' alt='2'>",
         slidesToShow: 2,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
 
     $('.filter__title').on('click', function () {
@@ -110,6 +119,7 @@ $(function () {
         return false;
     });
 
+    $('.select-index').styler();
+
     var mixer = mixitup('.products__items')
-    // var mixers = mixitup('.page-products__content')
 });
